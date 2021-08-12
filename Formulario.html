@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset=pt-br>
+  </head>
+    <body>
+        
+        <fieldset>
+                <form action="action_page.html">
+
+                    <h2>Formulario</h2>
+                    <fieldset>
+                    <legend> Dados Pessoais</legend>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome">
+                   
+                    <br><br>
+                     
+                    <label for="Endereço">Endereço:</label><br>
+                    <input type="text" id="endereço" name="Endereço">
+
+                    <br><br>
+
+                    <label for="Cidade">Cidade:</label><br>
+                    <input type="text" id="Cidade" name="Cidade" >
+                    
+                    <br><br>
+
+                    <label for="estado:">Estado</label><br>
+                    <br><br>
+                    <select id="Estado">
+                        <option value="Selecione Estado"></option>
+                         <option value="São Paulo">São Paulo</option>
+                         <option value="Rio de Janeiro">Rio de Janeiro</option>
+                         <option value="Pernambuco">Pernambuco</option>
+                         <option value="Bahia">Bahia</option>
+                         <option value="Manaus">Manaus</option>
+                         <option value="Acre">Acre</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <form action="action_page.php">
+    
+                        <legend> Dados Profissionais</legend>
+                   
+                            <br><br>
+
+                             <label for="Natureza de Cargo"> Àrea de Atuação:</label>
+                             
+                             <br><br>
+                            
+                             <input type="radio" id=Gerência name= "graduação" value="Gerência">
+                            <label for="Gerência">Gerência</label><br>
+                            <input type="radio" id="Financeiro" name="graduação" value="Financeiro">
+                            <label for="financeiro">Financeiro</label><br>
+                            <input type="radio" id="Recepção" name="graduação" value="Recepção">
+                            <label for ="Recepção">Recepção</label>
+                            <input type="Radio" id="Administrativo" name="Administrativo" value="Administrativo">
+                            <label for="Administrativo">Administrativo</label>
+                            <input type="radio" id="Jurídico" name="Jurídico" value="Jurídico">
+                            <label for="Jurídico">Jurídico</label>
+ 
+                            <br><br>
+
+                            <label>Área de interesse</label><br>
+                            <input type="checkbox" id="Área de interesse1" name="Area de Interesse1" value="Computação">
+                            <label for="Àrea de interesse1">Computação</label><br>
+                            <input type="checkbox" id="Àrea de Interesse2" name="Área de Interesse2" value="Biologia">
+                            <label for="Área de Interesse2">Biologia</label><br>
+                            <input type="checkbox" id="Área de Interesse3" name="Área de Interesse3" value="Meio Ambiente">
+                            <label for="Área de Interesse3" >Meio Ambiente</label>
+                            <input type="checkbox" id="Àrea de Interesse4" name="Àrea de Interesse4" value="Engenharia">
+                            <label for="Área de Interesse4">Engenharia</label>
+                            <input type="checkbox" id="Área de Interesse5" name="Área de Interesse5"   value="Historia">
+                            
+                            <br><br>
+
+                            <label for="Mini-Curriculo:">Mini-Curriculo</label><br>
+                            <textarea id="Mini-curriculo"  name="Mini-curriculo" rows="4" cols="50">
+                            </textarea>
+
+                            <br><br>
+                            <form action="/action_page.php">
+                            
+                            
+                                <input type="submit" value="Enviar">
+                                
+                                <br><br>
+                                
+                                <input type="button" value="Limpa">
+                            </form>         
+                        </fieldset>
